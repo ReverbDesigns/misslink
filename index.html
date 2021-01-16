@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <title>MissingLink</title>
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="images/missing-link-logo.png" style="margin-left: 30px; height: 64px"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+
+            <li><button class="btn m3" id="BTC">Bitcoin</button></li>
+            <li><button class="btn m3" id="LTC">Litecoin</button></li>
+            <li><button class="btn m3" id="LINK">Chainlink</button></li>
+            <li><button class="btn m3" id="EOS">EOS</button></li>
+            <li><button class="btn m3" id="XRP">XRP</button></li>
+            <li><button class="btn m3" id="OMG">OMG Network</button></li>
+            <li><button class="btn m3" id="ETH">Ethereum</button></li>
+            <li><button class="btn m3" id="BCH">Bitcoin Cash</button></li>
+            <li><button class="btn m3" id="TRX">TRON</button></li>
+            <li><button class="btn m3" id="JST">JUST</button></li>
+
+        </ul>
+    </div>
+</nav>
+
+<br/>
+<!--<div class="container">-->
+<!--    <div class="row">-->
+<!--        <div class="col s1"></div>-->
+<!--        <div class="col s10">-->
+            <div id="chart-container">
+                <canvas id="myChart" style="display: block; height: 70vh; width: 80vw;"" class="chartjs-render-monitor"></canvas>
+            </div>
+<!--        </div>-->
+<!--        <div class="col s1"></div>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">MissingLink</h5>
+                <p class="grey-text text-lighten-4">Find out how real world events affect cryptocurrencies.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Team Members</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/aybaubau" target="_blank">Allie Bauer</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/ReverbDesigns" target="_blank">Jordan Bell</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/moonstripe11" target="_blank">Kojin Glick</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/asegre18" target="_blank">Andrew Segre</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2020 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
